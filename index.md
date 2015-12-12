@@ -18,5 +18,8 @@ A web service is just a way to communicate over the internet. Geospatial web ser
   {% endif %}
 {% endfor %}
 
-## Thanks
+## About geoservices.io
+geoservices.io was inspired by
+
+### Thanks
 A hat tip to [Tom MacWright](http://www.macwright.org/) and the contributors of [mapschool.io](http://mapschool.io/) for inspiring this.

@@ -8,12 +8,20 @@ layout: default
   {{ page.overview }}
 </p>
 
+<h2>Examples</h2>
+<ul>
+  {% for example in page.examples %}
+    <li>
+      <a href='{{ example[1] }}'>{{ example[0] }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 <h2>Additional Reading</h2>
 <ul>
 {% for reading in page.additional_reading %}
   <li>
-    <a href='{{reading[1]}}'>{{reading[0]}}</a>
+    <a href='{{ reading[1] }}'>{{ reading[0] }}</a>
   </li>
 {% endfor %}
 </ul>
